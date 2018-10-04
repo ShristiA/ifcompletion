@@ -22,17 +22,13 @@ public class Main {
         product = num1 * num2;
         average = sum / 2 ;
         //inserting the formulas.
+        System.out.println(" Average = " + average);
+        System.out.println(" Product = " + product);
 
-
-        if(sum > 200 ) {
+        if(sum <1000 ) {
             System.out.println("this sum " + sum + "~");
-            System.out.println(" Average = " + average);
-            System.out.println(" Product = " + product);
-
-            }else{
+            }else if(sum>200){
             System.out.println("this sum " + sum  +  "*" );
-            System.out.println(" Average = " + average);
-            System.out.println(" Product = " + product);
         }
 
 
